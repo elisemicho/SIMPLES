@@ -1,0 +1,73 @@
+# Parallel English corpuses available for Research on Simplification Operations
+
+## 1. Corpuses for sentence simplification (complex//simple)
+
+### Training
+| Name | Nb aligned sentence pairs | URL |
+| ------------- | ------------- | ------------- |
+| Encyclopaedia Britannica/Britannica Elementary  <br>(Barzilay and Elhadad, 2003) | 103 | http://www.cs.columbia.edu/~noemie/alignment/ |
+| Parallel Wiki/Simple Wiki <br>(Kauchak, 2013) | 167 K (60K documents) | http://www.cs.pomona.edu/~dkauchak/simplification/ |
+| EW-SEW English Wiki-Simple English Wiki with good matches and partial matches <br>(Hwang et al., 2015) | 68 K manually and 52 M automatically aligned | http://ssli.ee.washington.edu/tial/projects/simplification/ |
+| WikiSmall = PWKP Parallel Wikipedia Simplification Corpus <br>(Zhu et al., 2010) | 90 K | https://github.com/XingxingZhang/dress |
+| WikiLarge, aggregating sentences from Kauchak, 2013, Zhu et al., 2010, and others <br>(Zhang and Lapata, 2017) | 296 K | https://github.com/XingxingZhang/dress |
+| Simple English Wikipedia / English Wikipedia <br>(no publication?) | 493 K | https://github.com/tmu-nlp/sscorpus |
+| OneStopEnglish, articles in 3 reading levels from onestopenglish.com <br>(Vajjala and Lucic, 2018) | 1674 for ELE-INT, <br>2166 for ELE-ADV and <br>3154 for INT-ADV | https://zenodo.org/record/1219041 |
+
+### Evaluation
+| Name | Nb aligned sentence pairs | URL |
+| ------------- | ------------- | ------------- |
+| Dev and Test sets with complex sentences from Wiki Small and 8 human simplification variants <br>(Xu et al., 2016) | 2359 | https://github.com/cocoxu/simplification |
+| Human rated sentences for Grammaticality, Meaning preservation, Simplicity <br>(Quality Assessment for Text Simplification, QATS shared task 2016) | 630 | http://qats2016.github.io/shared.html |
+| Human benchmark on paired sentences from various automatic systems <br>(Sulem et al. 2018) | 1960 | https://github.com/eliorsulem/simplification-acl2018 |
+
+## 2. Corpuses for sentence summarization/compression (sentence//headline or compression)
+
+### Training
+| Name | Nb sentences | Description | URL |
+| ------------- | ------------- | ------------- | ------------- |
+| Ziff-Davis corpus | 1K | Sentence + compression |  |
+| broadcastnews-compressions <br>(Clarke and Lapata, 2008) | 1370 | Sentence from broadcast news stories manually transcribed + compression by 3 annotators | http://jamesclarke.net/research/resources |
+| written-compressions <br>(Clarke and Lapata, 2008) | 1433 | Sentence from written news stories manually transcribed + compression | http://jamesclarke.net/research/resources |
+| Abstractive sentence compression corpus<br>(Cohn and Lapata, 2008) | 575 | Sentence from news articles + compression | https://people.eng.unimelb.edu.au/tcohn/t3.html#Corpus |
+| Annotated English Gigaword (Napoles et al., 2012) | ~3.8M | First sentence of news articles + headline | https://github.com/harvardnlp/sent-summary |
+| Large sentence compression corpus<br>(Filippova and Altun, 2013) | 250K | First sentence of news articles + headline + compression | https://github.com/google-research-datasets/sentence-compression |
+
+### Evaluation
+| Name | Nb sentences | Description | URL |
+| ------------- | ------------- | ------------- | ------------- |
+| DUC 2003 | 624 | First sentence of news articles + summaries in 75 bytes by 4 humans | https://github.com/harvardnlp/sent-summary |
+| DUC 2004 | 500 | First sentence of news articles + summaries in 75 bytes by 4 humans | https://github.com/harvardnlp/sent-summary |
+| DUC 2004_references | 500 | Summaries produced by several state-of-the-art summarization systems and popular baseline systems on DUC 2004 task 2 | http://www.cis.upenn.edu/~nlp/corpora/sumrepo.html |
+| Gigaword (Napoles et al., 2012) | 1951 | First sentence of news articles + headlines | https://github.com/harvardnlp/sent-summary | 
+
+## 3. Corpuses for text summarization (text//summary)
+
+### News
+| Name | Nb articles | Description | URL |
+| ------------- | ------------- | ------------- | ------------- |
+| New York Times Corpus <br>(Sandhaus et al., 2008) | 1.8M | News articles + summaries | https://catalog.ldc.upenn.edu/products/LDC2008T19 (to be requested) |
+| CNN/DailyMail <br>(Hermann et al., 2015) | ~300K | News articles + multi-sentence highlights | https://github.com/harvardnlp/sent-summary |
+| MSR Abstractive Text Compression Dataset<br>(Toutanova et al. ,2016) | 26K | 1 and 2-sentence paragraphs from News, Letters, Journal and Non-fiction genres in Open American National Corpus (OANC) + up to 5 crowd-sourced rewrites | https://www.microsoft.com/en-us/download/details.aspx?id=54262 |
+| Kaggle News Summary <br>(no publication?) | 4 515 | News articles + multi-sentence summaries | https://www.kaggle.com/sunnysai12345/news-summary |
+| OneStopEnglish <br>(Vajjala and Lucic, 2018) | 189 | News articles in 3 reading levels (ELE, INT, ADV) from onestopenglish.com | https://github.com/nishkalavallabhi/OneStopEnglishCorpus/tree/bea2018 |
+| Newsroom <br>(Grusky et al., 2018) | 1.3M | News articles + summaries written by authors/editors | https://summari.es/download/ |
+
+### Other domains
+| Name | Nb articles | Description | URL |
+| ------------- | ------------- | ------------- | ------------- |
+| Emails <br>(Loza et al., 2014) | 349 | Emails + abstractive summaries | http://web.eecs.umich.edu/~mihalcea/downloads.html |
+| Live Blog Corpus<br>(P.V.S. et al., 2018) | 974 + 1681 | Live blogs from BBC and the Guardian + topic summary  | https://github.com/UKPLab/lrec2018-live-blog-corpus |
+
+
+## 4. Adapted text for people with disabilities (text//adpated version or readability rating)
+
+| Name | Nb documents | Description | URL |
+| ------------- | ------------- | ------------- | ------------- |
+| ASD  Comprehension  corpus <br>(Yaneva, 2016) | 27 | Documents for which the readability was evaluated by 27 different people with a formal diagnosis of autism | https://github.com/victoria-ianeva/ASD-Comprehension-Corpus |
+| FIRST <br>(Jordanova et al., 2013) | 25 | Text + summaries by 15 special needs teachers and professional carers working with autistic people | http://www.first-asd.eu/?q=system/files/FIRST_D7.2_20130228_annex.pdf |
+
+## 5. Corpuses for simplified paraphrasing (complex//simple)
+
+| Name | Nb phrases | Description | URL |
+| ------------- | ------------- | ------------- |  ------------- |
+| Simple PPDB<br>(Pavlick and Callison-Burch, 2016) | 4.5M | Phrase + simple paraphrase | http://www.seas.upenn.edu/~nlp/resources/simple-ppdb.tgz |

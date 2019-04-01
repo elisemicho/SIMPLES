@@ -1,0 +1,24 @@
+# French corpuses available for Research on Simplification Operations
+
+## 1. Corpuses for sentence summarization/compression (sentences//compression)
+
+| Name | Nb sentences | Description | URL |
+| ------------- | ------------- | ------------- | ------------- |
+| Bilingual Corpus of Compression Operations Traces<br>(Ive and Yvon, 2004) | 1K | Sentence + extractive compression | https://perso.limsi.fr/ive |
+| RPM2 <br>(De Loupy et al., 2010) | 8432 | Sentence + compression by 4 annotators | to be requested to the author http://lia.univ-avignon.fr/fileadmin/documents/rpm2/download_resumes_fr.html |
+| LINA-msc <br>(Boudin and Morin, 2013) | 618 | 40 clusters of first sentences of news articles on the same topic + compression by human | https://github.com/boudinfl/lina-msc |
+
+## 2. Corpuses for text summarization (article//headline)
+
+| Name | Nb articles | Description | URL |
+| ------------- | ------------- | ------------- | ------------- |
+| RPM2 <br>(De Loupy et al., 2010) | 160 | Documents + human abstracts | available upon request to the author http://lia.univ-avignon.fr/fileadmin/documents/rpm2/download_resumes_fr.html |
+| PUCES <br>(Cabrera-Diego et al., 2016) | 170 | Extracts (155 human + 15 artificial) + 67 human abstracts | http://dev.termwatch.es/~fresa/CORPUS/PUCES/ |
+| French Gigaword | ~3M | News articles + headlines | https://catalog.ldc.upenn.edu/LDC2011T10 (requires fees) |
+
+## 3. Lexicons for word complexity
+
+| Name | Nb words | Description | URL |
+| ------------- | ------------- | ------------- |  ------------- |
+| Manulex<br>(Lété et al., 2004) | 48 886 | Words + frequencies in learning materials from grade 1, 2 and 3-5 | http://www.manulex.org/en/home.html |
+| FLELex<br>(Gala et al., 2014) | 17 871 | Words (lemmas) + frequencies in learning materials from A1 to C2 | http://cental.uclouvain.be/flelex/ |
